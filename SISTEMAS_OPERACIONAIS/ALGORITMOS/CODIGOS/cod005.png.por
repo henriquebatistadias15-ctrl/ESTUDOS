@@ -17,6 +17,8 @@ programa {
   // Saída de dados:
   valor3=valor1+valor2
   escreva(" Os resultados de dois valores é igual a:",valor3)
+
+ // Aula
     
   }
 }
