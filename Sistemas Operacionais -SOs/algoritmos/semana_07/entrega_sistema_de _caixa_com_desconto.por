@@ -61,7 +61,7 @@ programa {
     
     valor_final_compra = valor_total_dos_produtos - valor_do_desconto
     
-    ganhou_brinde = (valor_final_compra > 100.0) e (maiusc(forma_de_pagamento) == "PIX")
+    ganhou_brinde = (valor_final_compra > 100.0) e ((forma_de_pagamento) == "PIX")
 
   
 
