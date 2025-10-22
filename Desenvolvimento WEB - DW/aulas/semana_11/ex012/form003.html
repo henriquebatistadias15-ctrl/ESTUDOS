@@ -12,19 +12,31 @@
 
     <form action="cadastro.php" method="get">
         <!--Área do formulário-->
-        <label for="idnome">Nome</label>
-        <input type="text" name="nome" id="nome" required maxlength="15" autocomplete="username" placeholder="Nome do usuario">
+        <div>
+            <label for="idnome">Nome:</label>
+            <input type="text" name="nome" id="nome" required maxlength="15" autocomplete="username" placeholder="Nome completo" size="50">
+        </div>
 
+        <div>
+            <label for="idmedia">Média:</label>
+            <input type="number" name="Media" id="idmedia" placeholder="numeros" min="0" max="25" step="0.5">
+        </div>
 
+        <div>
+            <label for="idbimestre" >Bimestre:</label>
+            <input type="month" name="bimestre" id="idbimestre" value="2003-01">
+        </div>
+
+        <div>
+            <label for="iddida">Dia da prova</label>
+            <input type="date" name="dia" id="iddia">
+        </div>
+        
 
 
 
         <!--Área dos botões-->
         <input type="submit" value="Enviar">
-
-
-
-
 
     </form>
 

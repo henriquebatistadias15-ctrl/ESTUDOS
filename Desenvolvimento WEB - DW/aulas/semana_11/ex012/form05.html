@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 05</title>
+</head>
+<body>
+    <!--Área dos formulários-->
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Sexo</legend>
+            
+            <div>
+                <input type="radio" name="sexo" id="idmasculino">
+                <label for="idsexo">Masculino</label>
+            </div>
+            
+            <br>
+            
+            <div>
+                <input type="radio" name="sexo" id="idfeminino">
+                <label for="idfeminino">Feminino</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+
+            <div>
+                <input type="checkbox" name="Futebol" id="idfut" checked>
+                <label for="idfut">Futebol</label>
+            </div>
+            
+            <br>
+            
+            <div>
+                <input type="checkbox" name="Basquete" id="idbasquete">
+                <label for="idbasquete">Basquete</label>
+            </div>
+            
+            <br>
+
+            <div>
+                <input type="checkbox" name="Natação" id="idnatação">
+                <label for="idnatação">Natação</label>
+            </div>
+
+            <br>
+            
+            <div>
+                <input type="checkbox" name="Tênis" id="idnatação">
+                <label for="idtênis">Tênis</label>
+            </div>
+        </fieldset>
+    </form>
+
+    
+    <!--Área dos botões-->
+    <p><a  href = "ex012.html" rel = "prev"><button>Voltar</button></a></p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</body>
+</html>
