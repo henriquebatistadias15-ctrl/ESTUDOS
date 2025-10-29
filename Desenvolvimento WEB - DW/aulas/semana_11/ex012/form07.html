@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 07</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    
+    <!--Área do formulário--->
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="idestado">Estado:</label>
+           <select name="estado" id="idestado">
+            <option value="">--Selecione Estado--</option>
+                <optgroup label="Sudeste">
+                <option value="mg">Minas Gerais</option>
+                <option value="sp">São Paulo</option>
+                <option valuemax="rj">Rio de Janeiro</option>
+                <option valuemax="es">Espírito Santo</option>
+                </optgroup>
+
+                <optgroup label="Sul">
+                    <option value="sc">Santa Catarina</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="pr">Paraná</option>
+                </optgroup>
+            </select>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="idprofissão">Profissão</label>
+            <input type="text" name="profissão" id="idprofissão">
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="idmsg">Mensagem</label>
+            <div><textarea  name="msg"  id="idmsg" cols="30"  rows="10" placeholder="Escreva sua mensagem..."></textarea>  </div>
+        </div>
+    </form>
+</body>
+
+<!--Área dos botões-->
+    <p><a  href = "ex012.html" rel="prev"><button>Voltar</button></a></p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</html>
