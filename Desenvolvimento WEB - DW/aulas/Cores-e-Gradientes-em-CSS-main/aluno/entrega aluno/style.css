@@ -1,0 +1,40 @@
+body {
+    background-color:  #5e6268;
+}
+
+header{
+    background-color: #5e6268;
+}
+
+nav a {
+    color: #EA9100;
+}
+
+nav a:hover {
+    color: #EA9100;
+    }
+
+h1 {
+    color: #EA9100;
+}
+
+h2 {
+    color: #EA9100;
+}
+
+footer{
+    background-color:  #5e6268;
+    
+}
+
+footer span {
+    color: #EA9100;
+}
+
+p{
+    color: #EA9100;
+}
+
+button{
+    background-color: #232226;
+}
